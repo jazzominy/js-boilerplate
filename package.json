@@ -1,0 +1,21 @@
+{
+  "name": "js-boilerplate-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+	"lint:watch": "esw src --watch",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack-dev-server --open",
+	"start": "run-p lint:watch serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-watch": "^3.1.2",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
