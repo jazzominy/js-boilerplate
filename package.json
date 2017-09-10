@@ -11,8 +11,8 @@
     "serve": "webpack-dev-server --open",
 	"start": "run-p lint:watch serve"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jasmine Hirpara",
+  "license": "MIT",
   "devDependencies": {
     "eslint-watch": "^3.1.2",
     "webpack": "^3.5.6",
