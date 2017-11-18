@@ -6,7 +6,7 @@ Frontend web application development has become much more sophisticated given th
 
 ### Pre-requisites
 
-In order to setup this project, we would require [NodeJS](https://nodejs.org/en/download/). NodeJS comee with pre-installed package manager `npm`. We will use this manager to install JS modules. So,
+In order to setup this project, we would require [NodeJS](https://nodejs.org/en/download/). NodeJS comes with pre-installed package manager `npm`. We will use this manager to install JS modules. So,
 
 * Install [NodeJS](https://nodejs.org/en/download/)
 * Create a folder with a name of your choice and open it in command line console. 
@@ -67,10 +67,10 @@ Webpack requires a config file, in root directory, that specifies the build conf
         }
     }
     
-The config file exports a config object object with the following configuration
+The config file exports a config object with the following configuration
 
-`entry` - it specifies the input file that needs to be bundles. In our case it is `index.js`
-`output.path` - the output directory where the bubdled file will be created
+`entry` - it specifies the input file that needs to be bundled. In our case it is `index.js`
+`output.path` - the output directory where the bundled file will be created
 `output.filename` - the name of the bundled file
 
 This is the minimum configurtion that you can specify to create a bundle.
